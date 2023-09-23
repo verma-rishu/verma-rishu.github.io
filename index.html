@@ -10,7 +10,7 @@
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/images/rishu-logo.png" type="image/x-icon">
 
   <!--
     - custom css link
@@ -42,12 +42,14 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/avatar-2.png" alt="Rishu Verma" width="80">
+          <img src="./assets/images/rv-avatar.png" alt="Rishu Verma" width="1000">
         </figure>
 
         <div class="info-content">
           <h1 class="name" title="Rishu Verma">Rishu Verma <small style="font-size:small;">(she/her)</small></h1>
           <p class="title">Software Engineer</p>
+          <br> 
+          <p class="title">Open to work from: May 2024</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -100,6 +102,12 @@
         <ul class="social-list">
 
           <li class="social-item">
+            <a href="https://drive.google.com/file/d/1Xh-ulSnV_slVMHM9F3t-cMgWOBxm87pQ/view?usp=sharing" class="title">
+              Resume
+            </a>
+          </li>
+
+          <li class="social-item">
             <a href="https://www.linkedin.com/in/verma-rishu/" class="social-link">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
@@ -150,16 +158,16 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <button class="navbar-link" data-nav-link>Experience</button>
           </li>
 
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li> -->
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
 
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li> -->
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
 
           <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
@@ -727,52 +735,7 @@ All The Best for your future !!
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Pennsylvania State University - University Park</h4>
-
-              <span>2022 - Ongoing</span>
-
-              <p class="timeline-text">
-               Masters of Science - Computer Science & Engineering <br>
-               <small> GPA: 3.9/4.0</small>
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Jaypee University of Information Technology</h4>
-
-              <span>2015 - 2019</span>
-
-              <p class="timeline-text">
-                Bachelor of Technology  - Computer Science & Engineering <br>
-                <small> GPA: 9.3/10.0</small>
-              </p>
-            </li>
-
-          </ol>
-
-        </section>
+      <article class="resume" data-page="experience">
 
         <section class="timeline">
 
@@ -788,62 +751,95 @@ All The Best for your future !!
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Senior Software Engineer - HSBC</h4>
+              <a href="https://www.wenpengyin.org/languagex-lab">
+                <h4 class="h4 timeline-item-title" id="exp-title">Researcher - Language X Lab - Penn State University</h4>
+              </a>
 
-              <span>March 2022 — July 2022</span>
+              <span> May'23 — ongoing</span>
 
-              <!-- <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p> -->
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Software Engineer - HSBC</h4>
-
-              <span>July 2019 — Feb 2022</span>
-
-              <!-- <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p> -->
+              <ul class="timeline-text">
+                  <li>Facilitate the use of <b>Large Language Models (LLMs)</b> for elementary maths.
+                    This ongoing project involves converting textual math into visual materials (images/
+                    videos) to enhance children’s understanding of procedural steps and foster
+                    cognitive development.</li>
+                </ul>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Front-end Intern - Clicklabs</h4>
+              <a href="https://www.eecs.psu.edu/">
+                <h4 class="h4 timeline-item-title" id="exp-title">Teaching Assistant - Penn State University</h4>
+              </a>
 
-              <span>Feb 2019 - June 2019</span>
+              <span>(Part-time) | Aug'22 — ongoing</span>
 
-              <!-- <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p> -->
+              <ul class="timeline-text">
+                  <li>Assisted Dr. Suman Saha & Dr. Mahfuza Farooque in delivering
+                    the curriculum to 350+ undergraduate and graduate students. Provided individualized attention and assistance to students
+                    during office hours, clarified student's doubts on the active class forum, graded & designed exams, homework & programming
+                    assignments based on concepts from multiple programming languages (C, C++, Racket, Python, Java).</li>
+                </ul>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <a href="https://www.hsbc.com/careers/our-business-areas-and-teams/digital-business-services/careers-in-technology">
+                <h4 class="h4 timeline-item-title" id="exp-title">Senior Software Engineer - HSBC</h4>
+              </a>
+
+              <span>July'19 - Feb'22 (SE) | March'22 — July'22 (SSE)</span>
+
+              <ul class="timeline-text">
+                  <li>Developed a Token Web Service to bolster authentication security and slashing
+                    response time for requests from <b>180 seconds to 4 seconds</b>.</li>
+                  <li> Effectively led a team of 2 engineers to bootstrap a client reporting platform with
+                    seamless adoption by <b>10,000</b> high-net-worth clients. </li>
+                  <li>Designed and oversaw a Spring Cloud API Gateway, benefiting <b>25+ global teams</b>
+                    and <b>250+ staff members</b>, enhancing accessibility and efficiency.</li>
+                  <li> Collaborated with the business to lead an automation and system optimization
+                    project that reduced SLA misses from <b>20/quarter/team</b> to <b>0/quarter/team</b>.</li>
+                </ul>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Trainee - DRDO </h4>
+              <a href="https://clicklabs.co/">
+              <h4 class="h4 timeline-item-title" id="exp-title">Front-end Intern - Clicklabs</h4>
+            </a>
 
-              <span>Summer 2018</span>
+              <span>Feb'19 - June'19</span>
+
+              <ul class="timeline-text">
+                <li>Made a web-based product to platform independent (iOS, Android, Web)
+                  product which led to <b>70% reduction</b> in engineering effort.</li>
+              </ul>
+
+            </li>
+            
+            <li class="timeline-item">
+
+              <a href="https://www.drdo.gov.in/labs-and-establishments/institute-systems-studies-analyses-issa">
+              <h4 class="h4 timeline-item-title" id="exp-title">Trainee - Institute for Systems Studies & Analyses (ISSA) Labs - DRDO </h4>
+              </a>
+              <span>May'18 - July'18</span>
+              <ul class="timeline-text">
+                <li>Programmed features for the Tactical Naval War Game (a simulation game), facilitating
+                  screenshot generation and data visualization during cadet training.</li>
+              </ul>
 
               <!-- <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                
               </p> -->
             </li>
 
           </ol>
 
         </section>
+
 
         <!-- <section class="skill">
 
@@ -907,6 +903,53 @@ All The Best for your future !!
 
         </section> -->
 
+      </article>
+
+      <article class="resume" data-page="education">
+        <header>
+          <h2 class="h2 article-title">Education</h2>
+        </header>
+
+        <section class="timeline">
+
+          <!-- <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div> -->
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Pennsylvania State University - University Park</h4>
+
+              <span>2022 - Ongoing</span>
+
+              <p class="timeline-text">
+               Masters of Science - Computer Science & Engineering <br>
+               <small> GPA: 3.9/4.0</small>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Jaypee University of Information Technology</h4>
+
+              <span>2015 - 2019</span>
+
+              <p class="timeline-text">
+                Bachelor of Technology  - Computer Science & Engineering <br>
+                <small> GPA: 9.3/10.0</small>
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
       </article>
 
 
