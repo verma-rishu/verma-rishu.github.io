@@ -616,6 +616,18 @@ main {
   overflow: hidden;
 }
 
+.testimonials-text-bold {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  line-height: 1.6;
+  display: -webkit-box;
+  line-clamp: 4;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-decoration: underline;
+}
 
 /**
  * #testimonials-modal
